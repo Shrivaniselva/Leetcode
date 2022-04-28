@@ -1,4 +1,4 @@
-Table: Scores
+/*Table: Scores
 
 +-------------+---------+
 | Column Name | Type    |
@@ -43,7 +43,7 @@ Output:
 | 3.65  | 3    |
 | 3.50  | 4    |
 +-------+------+
-
+*/
 Solution:
 
 SELECT  score, DENSE_RANK() OVER(ORDER BY score DESC) [rank]
